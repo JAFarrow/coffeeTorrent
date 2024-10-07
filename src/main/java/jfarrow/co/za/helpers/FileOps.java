@@ -14,6 +14,6 @@ public class FileOps {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return new String(bytes, StandardCharsets.UTF_8);
+        return new String(bytes, StandardCharsets.US_ASCII);
     }
 }
